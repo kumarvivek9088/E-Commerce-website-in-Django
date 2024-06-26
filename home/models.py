@@ -23,5 +23,5 @@ class Products(models.Model):
     price = models.PositiveIntegerField()
     category = models.ForeignKey(Category,on_delete=models.SET_NULL,null=True)
     images = models.ForeignKey(ProductImages,on_delete=models.SET_NULL,null=True)
-    added_at = 
+    # added_at = 
     
